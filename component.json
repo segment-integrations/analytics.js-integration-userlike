@@ -1,0 +1,18 @@
+{
+  "name": "analytics.js-integration-userlike",
+  "repo": "segment-integrations/analytics.js-integration-userlike",
+  "description": "The Userlike analytics.js integration.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {
+    "segmentio/facade": "1.x",
+    "component/clone": "0.1.0",
+    "segmentio/analytics.js-integration": "0.3.x"
+  },
+  "development": {
+    "segmentio/analytics.js": "*",
+    "segmentio/clear-env": "0.2.x",
+    "segmentio/analytics.js-integration-tester": "1.4.x"
+  }
+}
