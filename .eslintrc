@@ -10,6 +10,8 @@
   "globals": {
     "exports": true,
     "module": true,
-    "require": true
+    "require": true,
+    // FIXME: Access off of `window` and remove this
+    "segment_base_info": true
   }
 }
